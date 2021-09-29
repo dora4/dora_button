@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoraButton">
+        <attr name="dora_cornerRadius" format="dimension"/>
+        <attr name="dora_disableBgColor" format="color"/>
+        <attr name="dora_normalBgColor" format="color"/>
+        <attr name="dora_hoverBgColor" format="color"/>
+        <attr name="dora_disableTextColor" format="color"/>
+        <attr name="dora_normalTextColor" format="color"/>
+        <attr name="dora_hoverTextColor" format="color"/>
+    </declare-styleable>
+</resources>
