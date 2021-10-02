@@ -38,13 +38,6 @@ class DoraButton : AppCompatButton {
         setTextColor(textColors)
         gravity = Gravity.CENTER
         setBackgroundDrawable(background)
-        setOnTouchListener { v, event ->
-            when (event.action) {
-                MotionEvent.ACTION_DOWN -> isPressed = true
-                MotionEvent.ACTION_UP -> isPressed = false
-            }
-            true
-        }
     }
 
     override fun getBackground(): Drawable {

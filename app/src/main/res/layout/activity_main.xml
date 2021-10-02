@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <dora.widget.DoraButton
+        android:id="@+id/btnDisable"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="置灰按钮"
@@ -24,6 +25,7 @@
         app:dora_hoverBgColor="@color/teal_700"
         app:dora_hoverTextColor="@color/white" />
     <dora.widget.DoraButton
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="登录"
@@ -38,6 +40,7 @@
         app:dora_hoverBgColor="@color/teal_700"
         app:dora_hoverTextColor="@color/white" />
     <dora.widget.DoraButton
+        android:id="@+id/btnConfirm"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="确认"
