@@ -38,6 +38,8 @@ class DoraButton : AppCompatButton {
         setTextColor(textColors)
         gravity = Gravity.CENTER
         setBackgroundDrawable(background)
+        // 让没有设置listener时有颜色变化效果
+        setOnClickListener {  }
     }
 
     override fun getBackground(): Drawable {
